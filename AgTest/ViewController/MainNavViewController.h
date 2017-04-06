@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainNavViewController.h
 //  AgTest
 //
 //  Created by Calvin Chang@Compal on 05/04/2017.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainNavViewController : UINavigationController
 
 @end
-
