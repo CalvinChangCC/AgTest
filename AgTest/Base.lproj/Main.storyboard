@@ -55,7 +55,6 @@
                                         <state key="normal" title="Login"/>
                                         <connections>
                                             <action selector="loginButtonTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="y5b-Er-7Y6"/>
-                                            <segue destination="3Bm-7W-zGg" kind="showDetail" id="ADH-y7-feb"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P9x-sJ-jNq">
@@ -93,6 +92,7 @@
                     <connections>
                         <outlet property="accountTextField" destination="s1R-TG-0u6" id="5u9-uh-LDM"/>
                         <outlet property="passwordTextField" destination="Ycn-VM-49w" id="NBW-aJ-hsr"/>
+                        <segue destination="3Bm-7W-zGg" kind="showDetail" identifier="segue_enter_main_view" action="showViewController:sender:" id="vXq-E9-EEi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

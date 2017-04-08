@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E074AFC1E98CA1A00D9C1F7 /* PreferenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E074AFB1E98CA1A00D9C1F7 /* PreferenceManager.m */; };
 		0E8E03511E94F269007CBE50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8E03501E94F269007CBE50 /* main.m */; };
 		0E8E03541E94F269007CBE50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8E03531E94F269007CBE50 /* AppDelegate.m */; };
 		0E8E035A1E94F269007CBE50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8E03581E94F269007CBE50 /* Main.storyboard */; };
@@ -17,10 +18,14 @@
 		0E91238C1E9622B800437D5D /* MainNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9123851E9622B800437D5D /* MainNavViewController.m */; };
 		0E91238D1E9622B800437D5D /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9123871E9622B800437D5D /* MenuViewController.m */; };
 		0E91238E1E9622B800437D5D /* UserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9123891E9622B800437D5D /* UserListViewController.m */; };
+		0E9123911E962B9B00437D5D /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9123901E962B9B00437D5D /* NetworkManager.m */; };
+		0E9123941E962EB900437D5D /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9123931E962EB900437D5D /* LoginManager.m */; };
 		3A4C089555C681DDDF5264C7 /* libPods-AgTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8930787DF9CA56DAD1B41D /* libPods-AgTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E074AFA1E98CA1A00D9C1F7 /* PreferenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceManager.h; sourceTree = "<group>"; };
+		0E074AFB1E98CA1A00D9C1F7 /* PreferenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceManager.m; sourceTree = "<group>"; };
 		0E8E034C1E94F269007CBE50 /* AgTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8E03501E94F269007CBE50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E8E03521E94F269007CBE50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +44,10 @@
 		0E9123871E9622B800437D5D /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ViewController/MenuViewController.m; sourceTree = "<group>"; };
 		0E9123881E9622B800437D5D /* UserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserListViewController.h; path = ViewController/UserListViewController.h; sourceTree = "<group>"; };
 		0E9123891E9622B800437D5D /* UserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserListViewController.m; path = ViewController/UserListViewController.m; sourceTree = "<group>"; };
+		0E91238F1E962B9B00437D5D /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		0E9123901E962B9B00437D5D /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		0E9123921E962EB900437D5D /* LoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginManager.h; sourceTree = "<group>"; };
+		0E9123931E962EB900437D5D /* LoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginManager.m; sourceTree = "<group>"; };
 		5196471BEEAA625AC29B2327 /* Pods-AgTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AgTest/Pods-AgTest.release.xcconfig"; sourceTree = "<group>"; };
 		CF8930787DF9CA56DAD1B41D /* libPods-AgTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AgTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CF88054B6E3460A8555485 /* Pods-AgTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AgTest/Pods-AgTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +89,12 @@
 				0E8E03521E94F269007CBE50 /* AppDelegate.h */,
 				0E8E03531E94F269007CBE50 /* AppDelegate.m */,
 				0E8E03581E94F269007CBE50 /* Main.storyboard */,
+				0E9123921E962EB900437D5D /* LoginManager.h */,
+				0E9123931E962EB900437D5D /* LoginManager.m */,
+				0E074AFA1E98CA1A00D9C1F7 /* PreferenceManager.h */,
+				0E074AFB1E98CA1A00D9C1F7 /* PreferenceManager.m */,
+				0E91238F1E962B9B00437D5D /* NetworkManager.h */,
+				0E9123901E962B9B00437D5D /* NetworkManager.m */,
 				0E9123801E9622B800437D5D /* ContentViewController.h */,
 				0E9123811E9622B800437D5D /* ContentViewController.m */,
 				0E9123821E9622B800437D5D /* LoginViewController.h */,
@@ -246,8 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E074AFC1E98CA1A00D9C1F7 /* PreferenceManager.m in Sources */,
+				0E9123911E962B9B00437D5D /* NetworkManager.m in Sources */,
 				0E8E03541E94F269007CBE50 /* AppDelegate.m in Sources */,
 				0E91238A1E9622B800437D5D /* ContentViewController.m in Sources */,
+				0E9123941E962EB900437D5D /* LoginManager.m in Sources */,
 				0E91238E1E9622B800437D5D /* UserListViewController.m in Sources */,
 				0E91238B1E9622B800437D5D /* LoginViewController.m in Sources */,
 				0E8E03511E94F269007CBE50 /* main.m in Sources */,
